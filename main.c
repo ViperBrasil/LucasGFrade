@@ -35,9 +35,7 @@ do{
   {
 
     case 1:
-
     printf("NAO %s\n", A);
-
     if (a == 1){
     printf("%s eh falso\n\n", A);
     }
@@ -52,14 +50,12 @@ do{
 
     case 2:
     printf("NAO %s\n", B);
-
      if (b == 1){
     printf("%s eh falso\n\n", B);
     }
     if (b == 0){
         printf("%s eh verdadeiro\n\n", B);
     }
-
     printf("Realizar outra operacao?\n");
     printf("NAO - 0 / SIM - 1\n\n");
     scanf("%d", &e);
@@ -97,7 +93,6 @@ do{
     printf("NAO - 0 / SIM - 1\n\n");
     scanf("%d", &e);
      printf("\n");
-
     break;
 
     case 5:
@@ -156,6 +151,7 @@ do{
  case 8:
      e = 0;
     break;
+          
 }
 }while(e == 1);
 }
